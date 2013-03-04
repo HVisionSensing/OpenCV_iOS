@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2809" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1884"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="M86-0C-Y1o">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackOpaque" id="H2Y-ZO-QzX">
+                                <items>
+                                    <barButtonItem title="Up" id="hXl-sg-RRR">
+                                        <connections>
+                                            <action selector="setPortrait:" destination="2" id="bmP-qP-EmD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Down" id="HNn-Lx-UR2">
+                                        <connections>
+                                            <action selector="setPortraitUpsideDown:" destination="2" id="LZg-OY-C51"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Left" id="sBD-lU-ICk">
+                                        <connections>
+                                            <action selector="setPortraitLandscapeLeft:" destination="2" id="vE8-C2-Zej"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Right" id="mis-mF-n6u">
+                                        <connections>
+                                            <action selector="setPortraitLandscapeRight:" destination="2" id="3Oh-W9-dVZ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="xRA-cx-NKl"/>
+                                    <barButtonItem style="plain" id="vbp-uW-dUJ">
+                                        <switch key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="hh2-Q3-tef">
+                                            <rect key="frame" x="229" y="9" width="79" height="27"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <connections>
+                                                <action selector="switchProcessingOnOff:" destination="2" eventType="valueChanged" id="hzb-jB-33e"/>
+                                            </connections>
+                                        </switch>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" id="k20-QV-xcC">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="k20-QV-xcC" firstAttribute="trailing" secondItem="M86-0C-Y1o" secondAttribute="trailing" type="default" id="Aes-bM-tx4"/>
+                            <constraint firstItem="k20-QV-xcC" firstAttribute="bottom" secondItem="H2Y-ZO-QzX" secondAttribute="top" type="default" id="QCw-Vw-mFm"/>
+                            <constraint firstItem="k20-QV-xcC" firstAttribute="top" secondItem="M86-0C-Y1o" secondAttribute="top" type="default" id="Qbv-Mq-tBM"/>
+                            <constraint firstItem="H2Y-ZO-QzX" firstAttribute="leading" secondItem="M86-0C-Y1o" secondAttribute="leading" type="default" id="Z4P-xg-hPX"/>
+                            <constraint firstItem="k20-QV-xcC" firstAttribute="leading" secondItem="M86-0C-Y1o" secondAttribute="leading" type="default" id="fBF-8w-dbw"/>
+                            <constraint firstItem="H2Y-ZO-QzX" firstAttribute="bottom" secondItem="M86-0C-Y1o" secondAttribute="bottom" type="default" id="gBg-40-ytD"/>
+                            <constraint firstItem="H2Y-ZO-QzX" firstAttribute="trailing" secondItem="M86-0C-Y1o" secondAttribute="trailing" type="default" id="gGO-ZD-DLa"/>
+                        </constraints>
+                        <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="imageView" destination="k20-QV-xcC" id="ipM-J9-Rq0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="setPortrait:"/>
+                <relationship kind="action" name="setPortraitLandscapeLeft:"/>
+                <relationship kind="action" name="setPortraitLandscapeRight:"/>
+                <relationship kind="action" name="setPortraitUpsideDown:"/>
+                <relationship kind="action" name="switchProcessingOnOff:"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

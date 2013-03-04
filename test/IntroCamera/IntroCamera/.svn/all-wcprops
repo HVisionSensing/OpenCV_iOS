@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gsoc2012/!svn/ver/158/ios/trunk/test/IntroCamera/IntroCamera
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gsoc2012/!svn/ver/158/ios/trunk/test/IntroCamera/IntroCamera/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gsoc2012/!svn/ver/158/ios/trunk/test/IntroCamera/IntroCamera/AppDelegate.h
+END
+RootViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gsoc2012/!svn/ver/158/ios/trunk/test/IntroCamera/IntroCamera/RootViewController.xib
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gsoc2012/!svn/ver/158/ios/trunk/test/IntroCamera/IntroCamera/AppDelegate.m
+END
+IntroCamera-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gsoc2012/!svn/ver/158/ios/trunk/test/IntroCamera/IntroCamera/IntroCamera-Info.plist
+END
+IntroCamera-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gsoc2012/!svn/ver/158/ios/trunk/test/IntroCamera/IntroCamera/IntroCamera-Prefix.pch
+END
+RootViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gsoc2012/!svn/ver/158/ios/trunk/test/IntroCamera/IntroCamera/RootViewController.h
+END
+RootViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gsoc2012/!svn/ver/158/ios/trunk/test/IntroCamera/IntroCamera/RootViewController.m
+END

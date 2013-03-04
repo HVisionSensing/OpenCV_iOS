@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="iL2-SL-d8E">
+                                <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.89999999999999991"/>
+                                <items>
+                                    <barButtonItem style="done" systemItem="action" id="osd-qj-2TI">
+                                        <color key="tintColor" red="0.32772582119999999" green="0.0" blue="0.67618042879999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="showPhotoLibrary:" destination="2" id="Lgv-Y1-S5z"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="WLm-l6-uvy"/>
+                                    <barButtonItem image="videoicon.png" style="done" id="KMr-tu-A84">
+                                        <color key="tintColor" red="0.32772582119999999" green="0.0" blue="0.67618042879999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="tF0-bA-tZL" kind="modal" id="P36-fT-Ql9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="iTI-AU-Ath"/>
+                                    <barButtonItem style="done" systemItem="camera" id="YSW-rR-7B5">
+                                        <color key="tintColor" red="0.26633781934306572" green="0.0" blue="0.73839530109489049" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="showCameraImage:" destination="2" id="vMj-em-rgB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="0.078431372549019607" green="0.0" blue="0.67450980392156867" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="default_640.png" id="DnS-7R-WUf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EK6-75-4CK"/>
+                    <connections>
+                        <outlet property="cameraButton" destination="YSW-rR-7B5" id="BUq-PM-evV"/>
+                        <outlet property="imageView" destination="DnS-7R-WUf" id="07O-eG-gc0"/>
+                        <outlet property="photoLibraryButton" destination="osd-qj-2TI" id="J7E-qo-IDJ"/>
+                        <outlet property="videoButton" destination="KMr-tu-A84" id="pwJ-UR-IhC"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="16" y="44"/>
+        </scene>
+        <!--Video View Controller-->
+        <scene sceneID="Fz9-pB-5hU">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tna-H3-4UR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="tF0-bA-tZL" customClass="VideoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u0t-S6-0Pz">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="er9-WG-PqV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.079122947080291967" green="0.0" blue="0.67618042883211682" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Real Time Ball Tracking" id="r57-W7-whg">
+                                        <barButtonItem key="leftBarButtonItem" title="back" style="done" id="Tcl-fm-rrv">
+                                            <color key="tintColor" red="0.32772582119999999" green="0.0" blue="0.67618042879999996" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="6dI-vC-IZG"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="b4Q-cp-xOS">
+                                <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2Kh-sr-an5"/>
+                                    <barButtonItem image="switchCamera.png" style="done" id="c6h-gV-FSD">
+                                        <color key="tintColor" red="0.32772582119999999" green="0.0" blue="0.67618042879999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="switchCamera:" destination="tF0-bA-tZL" id="o5F-kk-Z6y"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="26c-K1-6xB"/>
+                                </items>
+                                <color key="tintColor" red="0.079122947080000006" green="0.0" blue="0.67618042879999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="ZiO-z6-XfH">
+                                <rect key="frame" x="0.0" y="44" width="320" height="372"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="videoView" destination="ZiO-z6-XfH" id="oLr-Vr-r99"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="422" y="44"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="default_640.png" width="640" height="960"/>
+        <image name="switchCamera.png" width="40" height="40"/>
+        <image name="videoicon.png" width="20" height="20"/>
+    </resources>
+    <classes>
+        <class className="VideoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/VideoViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="switchCamera:"/>
+                <relationship kind="outlet" name="videoView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="showCameraImage:"/>
+                <relationship kind="action" name="showPhotoLibrary:"/>
+                <relationship kind="outlet" name="cameraButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="photoLibraryButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="videoButton" candidateClass="UIBarButtonItem"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,159 @@
+10
+
+dir
+279
+http://code.opencv.org/svn/gsoc2012/ios/trunk
+http://code.opencv.org/svn/gsoc2012
+
+
+
+2012-08-27T21:53:10.883205Z
+279
+duffycola
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+9acb42a8-a675-11e1-9ead-f914d4548c2f
+
+test
+dir
+
+RealtimeBallTracking
+dir
+
+FullscaleDemoApp
+dir
+
+TestHighgui
+dir
+
+HelloWorld_iOS
+dir
+
+build_framework.sh
+file
+
+
+
+
+2013-03-04T05:14:52.000000Z
+3dbde83a2993bca357af854af721a77e
+2012-07-30T09:56:23.734087Z
+221
+duffycola
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+344
+
+GrabCut
+dir
+
+ImageFilter
+dir
+
+HelloOpenCViOS
+dir
+
+StaticImagesFaceDetectionSample
+dir
+
+VideoFilters
+dir
+
+ext
+dir
+
+ColorSpaceConversionSample
+dir
+
+CameraOrientation
+dir
+
+HelloIosVideo
+dir
+
+doc
+dir
+
+shared
+dir
+
+OpenCViOSDemo
+dir
+
+BlendingImagesSample
+dir
+
+README.txt
+file
+
+
+
+
+2013-03-04T05:14:52.000000Z
+68861363d61434a8650cb98a08647d7b
+2012-07-23T16:13:45.344446Z
+199
+vp153
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+76
+
+VideoFilter
+dir
+
+FaceDetectVideo
+dir
+
+FindHomography
+dir
+

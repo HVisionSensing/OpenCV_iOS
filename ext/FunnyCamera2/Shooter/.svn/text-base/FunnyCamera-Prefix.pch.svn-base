@@ -1,0 +1,25 @@
+//
+// Prefix header for all source files of the 'Shooter' target in the 'Shooter' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+
+#if DEBUG
+#define ICLOG
+#endif
+
+#ifdef ICLOG
+#define ICLog  NSLog(@"%s:%d", __PRETTY_FUNCTION__, __LINE__);
+#else
+#define ICLog
+#endif

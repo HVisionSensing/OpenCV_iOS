@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gsoc2012/!svn/ver/258/ios/trunk/CameraOrientation/CameraOrientation
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gsoc2012/!svn/ver/173/ios/trunk/CameraOrientation/CameraOrientation/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gsoc2012/!svn/ver/173/ios/trunk/CameraOrientation/CameraOrientation/AppDelegate.h
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gsoc2012/!svn/ver/258/ios/trunk/CameraOrientation/CameraOrientation/ViewController.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gsoc2012/!svn/ver/173/ios/trunk/CameraOrientation/CameraOrientation/AppDelegate.m
+END
+CameraOrientation-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/gsoc2012/!svn/ver/173/ios/trunk/CameraOrientation/CameraOrientation/CameraOrientation-Info.plist
+END
+CameraOrientation-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/gsoc2012/!svn/ver/173/ios/trunk/CameraOrientation/CameraOrientation/CameraOrientation-Prefix.pch
+END
+ViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gsoc2012/!svn/ver/258/ios/trunk/CameraOrientation/CameraOrientation/ViewController.m
+END

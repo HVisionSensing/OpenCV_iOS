@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/gsoc2012/!svn/ver/274/ios/trunk/GrabCut/GrabCut
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/gsoc2012/!svn/ver/238/ios/trunk/GrabCut/GrabCut/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gsoc2012/!svn/ver/238/ios/trunk/GrabCut/GrabCut/AppDelegate.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gsoc2012/!svn/ver/238/ios/trunk/GrabCut/GrabCut/AppDelegate.m
+END
+GrabCut-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gsoc2012/!svn/ver/241/ios/trunk/GrabCut/GrabCut/GrabCut-Info.plist
+END
+GrabCut-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gsoc2012/!svn/ver/238/ios/trunk/GrabCut/GrabCut/GrabCut-Prefix.pch
+END

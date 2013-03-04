@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/gsoc2012/!svn/ver/279/ios/trunk/shared
+END
+ImagePickerController.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gsoc2012/!svn/ver/26/ios/trunk/shared/ImagePickerController.m
+END
+CvHomographyController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/gsoc2012/!svn/ver/231/ios/trunk/shared/CvHomographyController.mm
+END
+CvCaptureController.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gsoc2012/!svn/ver/232/ios/trunk/shared/CvCaptureController.h
+END
+CvFaceDetector.mm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/gsoc2012/!svn/ver/268/ios/trunk/shared/CvFaceDetector.mm
+END
+UIImageCVMatConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gsoc2012/!svn/ver/112/ios/trunk/shared/UIImageCVMatConverter.h
+END
+CvFilterController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gsoc2012/!svn/ver/168/ios/trunk/shared/CvFilterController.mm
+END
+CvGrabCutController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gsoc2012/!svn/ver/274/ios/trunk/shared/CvGrabCutController.mm
+END
+BallTracker.mm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/gsoc2012/!svn/ver/114/ios/trunk/shared/BallTracker.mm
+END
+CvHomographyController.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gsoc2012/!svn/ver/238/ios/trunk/shared/CvHomographyController.h
+END
+CvFaceDetector.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/gsoc2012/!svn/ver/168/ios/trunk/shared/CvFaceDetector.h
+END
+CvFilterController.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gsoc2012/!svn/ver/273/ios/trunk/shared/CvFilterController.h
+END
+CvCaptureController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gsoc2012/!svn/ver/232/ios/trunk/shared/CvCaptureController.mm
+END
+ImagePickerController.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gsoc2012/!svn/ver/26/ios/trunk/shared/ImagePickerController.h
+END
+CvGrabCutController.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gsoc2012/!svn/ver/274/ios/trunk/shared/CvGrabCutController.h
+END
+UIImageCVMatConverter.mm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/gsoc2012/!svn/ver/113/ios/trunk/shared/UIImageCVMatConverter.mm
+END
+BallTracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/gsoc2012/!svn/ver/114/ios/trunk/shared/BallTracker.h
+END

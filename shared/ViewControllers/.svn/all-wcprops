@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/gsoc2012/!svn/ver/279/ios/trunk/shared/ViewControllers
+END
+ViewControllerGrabCut.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gsoc2012/!svn/ver/274/ios/trunk/shared/ViewControllers/ViewControllerGrabCut.m
+END
+ViewControllerVideoFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/gsoc2012/!svn/ver/268/ios/trunk/shared/ViewControllers/ViewControllerVideoFilter.h
+END
+ViewControllerFaceDetectVideo.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gsoc2012/!svn/ver/267/ios/trunk/shared/ViewControllers/ViewControllerFaceDetectVideo.h
+END
+ViewControllerFindHomography.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gsoc2012/!svn/ver/267/ios/trunk/shared/ViewControllers/ViewControllerFindHomography.h
+END
+ViewControllerVideoFilter.mm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gsoc2012/!svn/ver/268/ios/trunk/shared/ViewControllers/ViewControllerVideoFilter.mm
+END
+ViewControllerVideoFilters.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gsoc2012/!svn/ver/268/ios/trunk/shared/ViewControllers/ViewControllerVideoFilters.h
+END
+ViewControllerFaceDetectVideo.mm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/gsoc2012/!svn/ver/268/ios/trunk/shared/ViewControllers/ViewControllerFaceDetectVideo.mm
+END
+ViewControllerFindHomography.mm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gsoc2012/!svn/ver/258/ios/trunk/shared/ViewControllers/ViewControllerFindHomography.mm
+END
+ViewControllerVideoFilters.mm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gsoc2012/!svn/ver/279/ios/trunk/shared/ViewControllers/ViewControllerVideoFilters.mm
+END
+ViewControllerFindHomographyLoadObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/gsoc2012/!svn/ver/267/ios/trunk/shared/ViewControllers/ViewControllerFindHomographyLoadObject.h
+END
+ViewControllerFindHomographyLoadObject.mm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/gsoc2012/!svn/ver/231/ios/trunk/shared/ViewControllers/ViewControllerFindHomographyLoadObject.mm
+END
+ViewControllerGrabCut.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gsoc2012/!svn/ver/274/ios/trunk/shared/ViewControllers/ViewControllerGrabCut.h
+END

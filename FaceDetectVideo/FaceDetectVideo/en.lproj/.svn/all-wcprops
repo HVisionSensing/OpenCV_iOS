@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gsoc2012/!svn/ver/268/ios/trunk/FaceDetectVideo/FaceDetectVideo/en.lproj
+END
+InfoPlist.strings
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gsoc2012/!svn/ver/155/ios/trunk/FaceDetectVideo/FaceDetectVideo/en.lproj/InfoPlist.strings
+END
+ViewControllerFaceDetectVideo_iPhone.xib
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/gsoc2012/!svn/ver/268/ios/trunk/FaceDetectVideo/FaceDetectVideo/en.lproj/ViewControllerFaceDetectVideo_iPhone.xib
+END
+ViewControllerFaceDetectVideo_iPad.xib
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/gsoc2012/!svn/ver/157/ios/trunk/FaceDetectVideo/FaceDetectVideo/en.lproj/ViewControllerFaceDetectVideo_iPad.xib
+END

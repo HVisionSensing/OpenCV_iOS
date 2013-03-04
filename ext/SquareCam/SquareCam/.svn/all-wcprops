@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/SquareCam/SquareCam
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/SquareCam/SquareCam/main.m
+END
+SquareCamAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/SquareCam/SquareCam/SquareCamAppDelegate.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/SquareCam/SquareCam/Info.plist
+END
+Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/SquareCam/SquareCam/Prefix.pch
+END
+SqareCamViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/SquareCam/SquareCam/SqareCamViewController.m
+END
+SquareCamViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/SquareCam/SquareCam/SquareCamViewController.h
+END
+SquareCamAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/SquareCam/SquareCam/SquareCamAppDelegate.m
+END
+squarePNG.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/SquareCam/SquareCam/squarePNG.png
+END
+SquareCamViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/SquareCam/SquareCam/SquareCamViewController.m
+END

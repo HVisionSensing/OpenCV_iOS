@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/gsoc2012/!svn/ver/268/ios/trunk/VideoFilter/VideoFilter
+END
+VideoFilter-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gsoc2012/!svn/ver/258/ios/trunk/VideoFilter/VideoFilter/VideoFilter-Info.plist
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gsoc2012/!svn/ver/258/ios/trunk/VideoFilter/VideoFilter/main.m
+END
+VideoFilter-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gsoc2012/!svn/ver/258/ios/trunk/VideoFilter/VideoFilter/VideoFilter-Prefix.pch
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gsoc2012/!svn/ver/258/ios/trunk/VideoFilter/VideoFilter/AppDelegate.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gsoc2012/!svn/ver/258/ios/trunk/VideoFilter/VideoFilter/AppDelegate.m
+END

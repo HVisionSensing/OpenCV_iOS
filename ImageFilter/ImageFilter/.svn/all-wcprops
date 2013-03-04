@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/gsoc2012/!svn/ver/271/ios/trunk/ImageFilter/ImageFilter
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/main.m
+END
+ViewController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/ViewController.mm
+END
+UIImageCVMatConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/UIImageCVMatConverter.h
+END
+ImageFilter-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/ImageFilter-Prefix.pch
+END
+ImageFilterViewController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gsoc2012/!svn/ver/271/ios/trunk/ImageFilter/ImageFilter/ImageFilterViewController.mm
+END
+imageFilter.mm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/gsoc2012/!svn/ver/268/ios/trunk/ImageFilter/ImageFilter/imageFilter.mm
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/AppDelegate.h
+END
+data.plist
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/data.plist
+END
+UIImage+Resize.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/UIImage+Resize.h
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/ViewController.h
+END
+DetailViewContoller.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/DetailViewContoller.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/AppDelegate.m
+END
+UIImage+Resize.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/UIImage+Resize.m
+END
+DetailViewContoller.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gsoc2012/!svn/ver/266/ios/trunk/ImageFilter/ImageFilter/DetailViewContoller.m
+END
+UIImageCVMatConverter.mm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/UIImageCVMatConverter.mm
+END
+ImageFilter-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gsoc2012/!svn/ver/265/ios/trunk/ImageFilter/ImageFilter/ImageFilter-Info.plist
+END
+ImageFilterViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gsoc2012/!svn/ver/271/ios/trunk/ImageFilter/ImageFilter/ImageFilterViewController.h
+END
+imageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gsoc2012/!svn/ver/268/ios/trunk/ImageFilter/ImageFilter/imageFilter.h
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/AppDelegate.h
+END
+opencv-logo114.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/opencv-logo114.png
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/ViewController.h
+END
+OpenCViPhoneApplication1-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/OpenCViPhoneApplication1-Info.plist
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/AppDelegate.m
+END
+OpenCViPhoneApplication1-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/OpenCViPhoneApplication1-Prefix.pch
+END
+ViewController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/ViewController.mm
+END
+opencv-logo57.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/opencv-logo57.png
+END
+UIImageCVMatConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/UIImageCVMatConverter.h
+END
+UIImageCVMatConverter.mm
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/UIImageCVMatConverter.mm
+END
+fruits.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/gsoc2012/!svn/ver/278/ios/trunk/ColorSpaceConversionSample/OpenCViPhoneApplication1/fruits.jpg
+END

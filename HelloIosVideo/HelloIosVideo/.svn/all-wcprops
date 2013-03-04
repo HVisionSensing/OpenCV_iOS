@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/gsoc2012/!svn/ver/279/ios/trunk/HelloIosVideo/HelloIosVideo
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/gsoc2012/!svn/ver/279/ios/trunk/HelloIosVideo/HelloIosVideo/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gsoc2012/!svn/ver/279/ios/trunk/HelloIosVideo/HelloIosVideo/AppDelegate.h
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/gsoc2012/!svn/ver/279/ios/trunk/HelloIosVideo/HelloIosVideo/ViewController.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/gsoc2012/!svn/ver/279/ios/trunk/HelloIosVideo/HelloIosVideo/AppDelegate.m
+END
+ViewController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gsoc2012/!svn/ver/279/ios/trunk/HelloIosVideo/HelloIosVideo/ViewController.mm
+END
+HelloIosVideo-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gsoc2012/!svn/ver/279/ios/trunk/HelloIosVideo/HelloIosVideo/HelloIosVideo-Info.plist
+END
+HelloIosVideo-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gsoc2012/!svn/ver/279/ios/trunk/HelloIosVideo/HelloIosVideo/HelloIosVideo-Prefix.pch
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/AppDelegate.h
+END
+opencv-logo114.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/opencv-logo114.png
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/ViewController.h
+END
+ImagePickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/ImagePickerViewController.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/AppDelegate.m
+END
+ViewController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/ViewController.mm
+END
+ImagePickerViewController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/ImagePickerViewController.mm
+END
+opencv-logo57.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/opencv-logo57.png
+END
+BlendingImages-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/BlendingImages-Info.plist
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/readme.txt
+END
+BlendingImages-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/gsoc2012/!svn/ver/120/ios/trunk/BlendingImagesSample/BlendingImages/BlendingImages-Prefix.pch
+END

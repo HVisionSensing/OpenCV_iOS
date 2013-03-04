@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/FunnyCamera2/Shooter
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/FunnyCamera2/Shooter/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/FunnyCamera2/Shooter/AppDelegate.h
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/FunnyCamera2/Shooter/ViewController.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/FunnyCamera2/Shooter/AppDelegate.m
+END
+ViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/FunnyCamera2/Shooter/ViewController.m
+END
+FunnyCamera-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/FunnyCamera2/Shooter/FunnyCamera-Info.plist
+END
+FunnyCamera-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gsoc2012/!svn/ver/50/ios/trunk/ext/FunnyCamera2/Shooter/FunnyCamera-Prefix.pch
+END

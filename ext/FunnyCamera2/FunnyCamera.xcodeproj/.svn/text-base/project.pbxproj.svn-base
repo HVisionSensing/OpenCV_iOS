@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E70048CC155DB82400123E11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70048CB155DB82400123E11 /* CoreGraphics.framework */; };
+		E70048CF155DB83B00123E11 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70048CE155DB83B00123E11 /* CoreVideo.framework */; };
+		E70048D1155DB84D00123E11 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70048D0155DB84D00123E11 /* CoreMedia.framework */; };
+		E75150E414F88390000F1C76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75150E314F88390000F1C76 /* UIKit.framework */; };
+		E75150E614F88390000F1C76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75150E514F88390000F1C76 /* Foundation.framework */; };
+		E75150EE14F88390000F1C76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E75150EC14F88390000F1C76 /* InfoPlist.strings */; };
+		E75150F014F88390000F1C76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E75150EF14F88390000F1C76 /* main.m */; };
+		E75150F414F88390000F1C76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75150F314F88390000F1C76 /* AppDelegate.m */; };
+		E75150F714F88390000F1C76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75150F614F88390000F1C76 /* ViewController.m */; };
+		E75150FA14F88390000F1C76 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E75150F814F88390000F1C76 /* ViewController.xib */; };
+		E751510114F883A4000F1C76 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E751510014F883A4000F1C76 /* AVFoundation.framework */; };
+		E751510314F88641000F1C76 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E751510214F88641000F1C76 /* QuartzCore.framework */; };
+		E76204F41562F206002DC498 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76204F31562F206002DC498 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E70048CB155DB82400123E11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E70048CE155DB83B00123E11 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E70048D0155DB84D00123E11 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E75150DF14F88390000F1C76 /* FunnyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75150E314F88390000F1C76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E75150E514F88390000F1C76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E75150EB14F88390000F1C76 /* FunnyCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunnyCamera-Info.plist"; sourceTree = "<group>"; };
+		E75150ED14F88390000F1C76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E75150EF14F88390000F1C76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E75150F114F88390000F1C76 /* FunnyCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunnyCamera-Prefix.pch"; sourceTree = "<group>"; };
+		E75150F214F88390000F1C76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E75150F314F88390000F1C76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E75150F514F88390000F1C76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E75150F614F88390000F1C76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E75150F914F88390000F1C76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E751510014F883A4000F1C76 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E751510214F88641000F1C76 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E76204F31562F206002DC498 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E75150DC14F88390000F1C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76204F41562F206002DC498 /* Accelerate.framework in Frameworks */,
+				E70048D1155DB84D00123E11 /* CoreMedia.framework in Frameworks */,
+				E70048CF155DB83B00123E11 /* CoreVideo.framework in Frameworks */,
+				E70048CC155DB82400123E11 /* CoreGraphics.framework in Frameworks */,
+				E751510314F88641000F1C76 /* QuartzCore.framework in Frameworks */,
+				E751510114F883A4000F1C76 /* AVFoundation.framework in Frameworks */,
+				E75150E414F88390000F1C76 /* UIKit.framework in Frameworks */,
+				E75150E614F88390000F1C76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E75150D414F8838F000F1C76 = {
+			isa = PBXGroup;
+			children = (
+				E75150E914F88390000F1C76 /* Classes */,
+				E75150E214F88390000F1C76 /* Frameworks */,
+				E75150E014F88390000F1C76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E75150E014F88390000F1C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75150DF14F88390000F1C76 /* FunnyCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E75150E214F88390000F1C76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E76204F31562F206002DC498 /* Accelerate.framework */,
+				E70048D0155DB84D00123E11 /* CoreMedia.framework */,
+				E70048CE155DB83B00123E11 /* CoreVideo.framework */,
+				E70048CB155DB82400123E11 /* CoreGraphics.framework */,
+				E751510214F88641000F1C76 /* QuartzCore.framework */,
+				E751510014F883A4000F1C76 /* AVFoundation.framework */,
+				E75150E314F88390000F1C76 /* UIKit.framework */,
+				E75150E514F88390000F1C76 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E75150E914F88390000F1C76 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E75150F214F88390000F1C76 /* AppDelegate.h */,
+				E75150F314F88390000F1C76 /* AppDelegate.m */,
+				E75150F514F88390000F1C76 /* ViewController.h */,
+				E75150F614F88390000F1C76 /* ViewController.m */,
+				E75150F814F88390000F1C76 /* ViewController.xib */,
+				E75150EA14F88390000F1C76 /* Supporting Files */,
+			);
+			name = Classes;
+			path = Shooter;
+			sourceTree = "<group>";
+		};
+		E75150EA14F88390000F1C76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75150EB14F88390000F1C76 /* FunnyCamera-Info.plist */,
+				E75150EC14F88390000F1C76 /* InfoPlist.strings */,
+				E75150EF14F88390000F1C76 /* main.m */,
+				E75150F114F88390000F1C76 /* FunnyCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E75150DE14F88390000F1C76 /* FunnyCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E75150FD14F88390000F1C76 /* Build configuration list for PBXNativeTarget "FunnyCamera" */;
+			buildPhases = (
+				E75150DB14F88390000F1C76 /* Sources */,
+				E75150DC14F88390000F1C76 /* Frameworks */,
+				E75150DD14F88390000F1C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunnyCamera;
+			productName = Shooter;
+			productReference = E75150DF14F88390000F1C76 /* FunnyCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E75150D614F8838F000F1C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "iNVASIVECODE, Inc.";
+			};
+			buildConfigurationList = E75150D914F8838F000F1C76 /* Build configuration list for PBXProject "FunnyCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E75150D414F8838F000F1C76;
+			productRefGroup = E75150E014F88390000F1C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E75150DE14F88390000F1C76 /* FunnyCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E75150DD14F88390000F1C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75150EE14F88390000F1C76 /* InfoPlist.strings in Resources */,
+				E75150FA14F88390000F1C76 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E75150DB14F88390000F1C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75150F014F88390000F1C76 /* main.m in Sources */,
+				E75150F414F88390000F1C76 /* AppDelegate.m in Sources */,
+				E75150F714F88390000F1C76 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E75150EC14F88390000F1C76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75150ED14F88390000F1C76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E75150F814F88390000F1C76 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75150F914F88390000F1C76 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E75150FB14F88390000F1C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E75150FC14F88390000F1C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E75150FE14F88390000F1C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shooter/FunnyCamera-Prefix.pch";
+				INFOPLIST_FILE = "Shooter/FunnyCamera-Info.plist";
+				PRODUCT_NAME = FunnyCamera;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E75150FF14F88390000F1C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shooter/FunnyCamera-Prefix.pch";
+				INFOPLIST_FILE = "Shooter/FunnyCamera-Info.plist";
+				PRODUCT_NAME = FunnyCamera;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E75150D914F8838F000F1C76 /* Build configuration list for PBXProject "FunnyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75150FB14F88390000F1C76 /* Debug */,
+				E75150FC14F88390000F1C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E75150FD14F88390000F1C76 /* Build configuration list for PBXNativeTarget "FunnyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75150FE14F88390000F1C76 /* Debug */,
+				E75150FF14F88390000F1C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E75150D614F8838F000F1C76 /* Project object */;
+}

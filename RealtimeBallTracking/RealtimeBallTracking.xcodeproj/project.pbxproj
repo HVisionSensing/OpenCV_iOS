@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C4F41ED15D9C3B3000BDF38 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4F41EC15D9C3B3000BDF38 /* opencv2.framework */; };
+		5CAD0B7415A6DAE500B9C56C /* default_320.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAD0B6E15A6DAE500B9C56C /* default_320.png */; };
+		5CAD0B7515A6DAE500B9C56C /* default_640.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAD0B6F15A6DAE500B9C56C /* default_640.png */; };
+		5CAD0B7615A6DAE500B9C56C /* opencv-logo57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAD0B7015A6DAE500B9C56C /* opencv-logo57.png */; };
+		5CAD0B7715A6DAE500B9C56C /* opencv-logo114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAD0B7115A6DAE500B9C56C /* opencv-logo114.png */; };
+		5CAD0B7815A6DAE500B9C56C /* switchCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAD0B7215A6DAE500B9C56C /* switchCamera.png */; };
+		5CAD0B7915A6DAE500B9C56C /* videoicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CAD0B7315A6DAE500B9C56C /* videoicon.png */; };
+		B516B2671595AF1800787FA1 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B516B2631595AF1800787FA1 /* VideoViewController.m */; };
+		B51963D4159CCABA00D96FF2 /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B51963D3159CCABA00D96FF2 /* UIImageCVMatConverter.mm */; };
+		B5196407159CD27000D96FF2 /* BallTracker.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5196406159CD27000D96FF2 /* BallTracker.mm */; };
+		B5226A631592628F0060A8E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5226A621592628F0060A8E5 /* UIKit.framework */; };
+		B5226A651592628F0060A8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5226A641592628F0060A8E5 /* Foundation.framework */; };
+		B5226A671592628F0060A8E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5226A661592628F0060A8E5 /* CoreGraphics.framework */; };
+		B5226A6D1592628F0060A8E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5226A6B1592628F0060A8E5 /* InfoPlist.strings */; };
+		B5226A6F1592628F0060A8E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5226A6E1592628F0060A8E5 /* main.m */; };
+		B5226A731592628F0060A8E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5226A721592628F0060A8E5 /* AppDelegate.m */; };
+		B5226A761592628F0060A8E5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5226A741592628F0060A8E5 /* MainStoryboard_iPhone.storyboard */; };
+		B5226A791592628F0060A8E5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5226A771592628F0060A8E5 /* MainStoryboard_iPad.storyboard */; };
+		B5226A7C1592628F0060A8E5 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5226A7B1592628F0060A8E5 /* ViewController.mm */; };
+		B5226A86159262F40060A8E5 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5226A85159262F40060A8E5 /* opencv2.framework */; };
+		B5226A88159262FF0060A8E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5226A87159262FF0060A8E5 /* QuartzCore.framework */; };
+		B5226A8A1592630C0060A8E5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5226A891592630C0060A8E5 /* CoreVideo.framework */; };
+		B5226A8C159263150060A8E5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5226A8B159263150060A8E5 /* AVFoundation.framework */; };
+		B5226A8E159263240060A8E5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5226A8D159263240060A8E5 /* CoreMedia.framework */; };
+		B5226A90159263470060A8E5 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5226A8F159263470060A8E5 /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C4F41EC15D9C3B3000BDF38 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../ocv.build/ios/opencv2.framework; sourceTree = "<group>"; };
+		5CAD0B6E15A6DAE500B9C56C /* default_320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_320.png; path = RealtimeBallTracking/default_320.png; sourceTree = SOURCE_ROOT; };
+		5CAD0B6F15A6DAE500B9C56C /* default_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_640.png; path = RealtimeBallTracking/default_640.png; sourceTree = SOURCE_ROOT; };
+		5CAD0B7015A6DAE500B9C56C /* opencv-logo57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "opencv-logo57.png"; path = "RealtimeBallTracking/opencv-logo57.png"; sourceTree = SOURCE_ROOT; };
+		5CAD0B7115A6DAE500B9C56C /* opencv-logo114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "opencv-logo114.png"; path = "RealtimeBallTracking/opencv-logo114.png"; sourceTree = SOURCE_ROOT; };
+		5CAD0B7215A6DAE500B9C56C /* switchCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = switchCamera.png; path = RealtimeBallTracking/switchCamera.png; sourceTree = SOURCE_ROOT; };
+		5CAD0B7315A6DAE500B9C56C /* videoicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = videoicon.png; path = RealtimeBallTracking/videoicon.png; sourceTree = SOURCE_ROOT; };
+		B516B2621595AF1800787FA1 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoViewController.h; path = RealtimeBallTracking/VideoViewController.h; sourceTree = "<group>"; };
+		B516B2631595AF1800787FA1 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoViewController.m; path = RealtimeBallTracking/VideoViewController.m; sourceTree = "<group>"; };
+		B51963D2159CCABA00D96FF2 /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageCVMatConverter.h; path = ../../shared/UIImageCVMatConverter.h; sourceTree = "<group>"; };
+		B51963D3159CCABA00D96FF2 /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UIImageCVMatConverter.mm; path = ../../shared/UIImageCVMatConverter.mm; sourceTree = "<group>"; };
+		B5196405159CD27000D96FF2 /* BallTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BallTracker.h; path = ../../shared/BallTracker.h; sourceTree = "<group>"; };
+		B5196406159CD27000D96FF2 /* BallTracker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BallTracker.mm; path = ../../shared/BallTracker.mm; sourceTree = "<group>"; };
+		B5226A5E1592628F0060A8E5 /* RealtimeBallTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtimeBallTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5226A621592628F0060A8E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5226A641592628F0060A8E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5226A661592628F0060A8E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5226A6A1592628F0060A8E5 /* RealtimeBallTracking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealtimeBallTracking-Info.plist"; sourceTree = "<group>"; };
+		B5226A6C1592628F0060A8E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5226A6E1592628F0060A8E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5226A701592628F0060A8E5 /* RealtimeBallTracking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealtimeBallTracking-Prefix.pch"; sourceTree = "<group>"; };
+		B5226A711592628F0060A8E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5226A721592628F0060A8E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5226A751592628F0060A8E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B5226A781592628F0060A8E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B5226A7A1592628F0060A8E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = RealtimeBallTracking/ViewController.h; sourceTree = "<group>"; };
+		B5226A7B1592628F0060A8E5 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = ViewController.mm; path = RealtimeBallTracking/ViewController.mm; sourceTree = "<group>"; };
+		B5226A85159262F40060A8E5 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../ocv.build/ios/opencv2.framework; sourceTree = "<group>"; };
+		B5226A87159262FF0060A8E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B5226A891592630C0060A8E5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B5226A8B159263150060A8E5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B5226A8D159263240060A8E5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B5226A8F159263470060A8E5 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5226A5B1592628F0060A8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5226A90159263470060A8E5 /* CoreImage.framework in Frameworks */,
+				B5226A8E159263240060A8E5 /* CoreMedia.framework in Frameworks */,
+				B5226A8C159263150060A8E5 /* AVFoundation.framework in Frameworks */,
+				B5226A8A1592630C0060A8E5 /* CoreVideo.framework in Frameworks */,
+				B5226A88159262FF0060A8E5 /* QuartzCore.framework in Frameworks */,
+				B5226A86159262F40060A8E5 /* opencv2.framework in Frameworks */,
+				B5226A631592628F0060A8E5 /* UIKit.framework in Frameworks */,
+				B5226A651592628F0060A8E5 /* Foundation.framework in Frameworks */,
+				B5226A671592628F0060A8E5 /* CoreGraphics.framework in Frameworks */,
+				5C4F41ED15D9C3B3000BDF38 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B516B2471595A8E200787FA1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B516B2621595AF1800787FA1 /* VideoViewController.h */,
+				B516B2631595AF1800787FA1 /* VideoViewController.m */,
+				B5226A7A1592628F0060A8E5 /* ViewController.h */,
+				B5226A7B1592628F0060A8E5 /* ViewController.mm */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B5226A531592628E0060A8E5 = {
+			isa = PBXGroup;
+			children = (
+				B5A3BB7E15A20387008270DC /* images */,
+				B516B2471595A8E200787FA1 /* View Controllers */,
+				B5226A681592628F0060A8E5 /* RealtimeBallTracking */,
+				B5226A611592628F0060A8E5 /* Frameworks */,
+				B5226A5F1592628F0060A8E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5226A5F1592628F0060A8E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5226A5E1592628F0060A8E5 /* RealtimeBallTracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5226A611592628F0060A8E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F41EC15D9C3B3000BDF38 /* opencv2.framework */,
+				B5226A8F159263470060A8E5 /* CoreImage.framework */,
+				B5226A8D159263240060A8E5 /* CoreMedia.framework */,
+				B5226A8B159263150060A8E5 /* AVFoundation.framework */,
+				B5226A891592630C0060A8E5 /* CoreVideo.framework */,
+				B5226A87159262FF0060A8E5 /* QuartzCore.framework */,
+				B5226A85159262F40060A8E5 /* opencv2.framework */,
+				B5226A621592628F0060A8E5 /* UIKit.framework */,
+				B5226A641592628F0060A8E5 /* Foundation.framework */,
+				B5226A661592628F0060A8E5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5226A681592628F0060A8E5 /* RealtimeBallTracking */ = {
+			isa = PBXGroup;
+			children = (
+				B5226A711592628F0060A8E5 /* AppDelegate.h */,
+				B5226A721592628F0060A8E5 /* AppDelegate.m */,
+				B5226A741592628F0060A8E5 /* MainStoryboard_iPhone.storyboard */,
+				B5226A771592628F0060A8E5 /* MainStoryboard_iPad.storyboard */,
+				B5226A691592628F0060A8E5 /* Supporting Files */,
+			);
+			path = RealtimeBallTracking;
+			sourceTree = "<group>";
+		};
+		B5226A691592628F0060A8E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5226A6A1592628F0060A8E5 /* RealtimeBallTracking-Info.plist */,
+				B5226A6B1592628F0060A8E5 /* InfoPlist.strings */,
+				B5196405159CD27000D96FF2 /* BallTracker.h */,
+				B51963D2159CCABA00D96FF2 /* UIImageCVMatConverter.h */,
+				B51963D3159CCABA00D96FF2 /* UIImageCVMatConverter.mm */,
+				B5196406159CD27000D96FF2 /* BallTracker.mm */,
+				B5226A6E1592628F0060A8E5 /* main.m */,
+				B5226A701592628F0060A8E5 /* RealtimeBallTracking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5A3BB7E15A20387008270DC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5CAD0B6E15A6DAE500B9C56C /* default_320.png */,
+				5CAD0B6F15A6DAE500B9C56C /* default_640.png */,
+				5CAD0B7015A6DAE500B9C56C /* opencv-logo57.png */,
+				5CAD0B7115A6DAE500B9C56C /* opencv-logo114.png */,
+				5CAD0B7215A6DAE500B9C56C /* switchCamera.png */,
+				5CAD0B7315A6DAE500B9C56C /* videoicon.png */,
+			);
+			name = images;
+			path = RealtimeBallTracking/images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5226A5D1592628F0060A8E5 /* RealtimeBallTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5226A7F1592628F0060A8E5 /* Build configuration list for PBXNativeTarget "RealtimeBallTracking" */;
+			buildPhases = (
+				B5226A5A1592628F0060A8E5 /* Sources */,
+				B5226A5B1592628F0060A8E5 /* Frameworks */,
+				B5226A5C1592628F0060A8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealtimeBallTracking;
+			productName = RealtimeBallTracking;
+			productReference = B5226A5E1592628F0060A8E5 /* RealtimeBallTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5226A551592628E0060A8E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "University of Houston - Main Campus";
+			};
+			buildConfigurationList = B5226A581592628E0060A8E5 /* Build configuration list for PBXProject "RealtimeBallTracking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5226A531592628E0060A8E5;
+			productRefGroup = B5226A5F1592628F0060A8E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5226A5D1592628F0060A8E5 /* RealtimeBallTracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5226A5C1592628F0060A8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5226A6D1592628F0060A8E5 /* InfoPlist.strings in Resources */,
+				B5226A761592628F0060A8E5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B5226A791592628F0060A8E5 /* MainStoryboard_iPad.storyboard in Resources */,
+				5CAD0B7415A6DAE500B9C56C /* default_320.png in Resources */,
+				5CAD0B7515A6DAE500B9C56C /* default_640.png in Resources */,
+				5CAD0B7615A6DAE500B9C56C /* opencv-logo57.png in Resources */,
+				5CAD0B7715A6DAE500B9C56C /* opencv-logo114.png in Resources */,
+				5CAD0B7815A6DAE500B9C56C /* switchCamera.png in Resources */,
+				5CAD0B7915A6DAE500B9C56C /* videoicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5226A5A1592628F0060A8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5226A6F1592628F0060A8E5 /* main.m in Sources */,
+				B5226A731592628F0060A8E5 /* AppDelegate.m in Sources */,
+				B5226A7C1592628F0060A8E5 /* ViewController.mm in Sources */,
+				B516B2671595AF1800787FA1 /* VideoViewController.m in Sources */,
+				B51963D4159CCABA00D96FF2 /* UIImageCVMatConverter.mm in Sources */,
+				B5196407159CD27000D96FF2 /* BallTracker.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5226A6B1592628F0060A8E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5226A6C1592628F0060A8E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5226A741592628F0060A8E5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5226A751592628F0060A8E5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B5226A771592628F0060A8E5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5226A781592628F0060A8E5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5226A7D1592628F0060A8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5226A7E1592628F0060A8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5226A801592628F0060A8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../ocv.build/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealtimeBallTracking/RealtimeBallTracking-Prefix.pch";
+				INFOPLIST_FILE = "RealtimeBallTracking/RealtimeBallTracking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5226A811592628F0060A8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../ocv.build/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealtimeBallTracking/RealtimeBallTracking-Prefix.pch";
+				INFOPLIST_FILE = "RealtimeBallTracking/RealtimeBallTracking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5226A581592628E0060A8E5 /* Build configuration list for PBXProject "RealtimeBallTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5226A7D1592628F0060A8E5 /* Debug */,
+				B5226A7E1592628F0060A8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5226A7F1592628F0060A8E5 /* Build configuration list for PBXNativeTarget "RealtimeBallTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5226A801592628F0060A8E5 /* Debug */,
+				B5226A811592628F0060A8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5226A551592628E0060A8E5 /* Project object */;
+}

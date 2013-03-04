@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2Be-zB-csA">
+                                <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="image one" id="S6i-Bi-qZD">
+                                        <connections>
+                                            <segue destination="qtG-jN-Qbv" kind="modal" identifier="imageOne" modalTransitionStyle="flipHorizontal" id="wHH-jB-Fhj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="1" title="image two" id="LLy-Lz-Y0z">
+                                        <connections>
+                                            <segue destination="qtG-jN-Qbv" kind="modal" identifier="imageTwo" modalTransitionStyle="flipHorizontal" id="K2D-gC-jN7"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="2" title="blend" id="EdO-h6-xu6">
+                                        <connections>
+                                            <action selector="blendImageAction:" destination="2" id="RZv-W7-mjM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="cJf-aK-Apc">
+                                <rect key="frame" x="0.0" y="44" width="320" height="371"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" id="1iE-na-x7D">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <items>
+                                    <navigationItem title="Blending" id="pJL-Uc-Lzz"/>
+                                </items>
+                            </navigationBar>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" continuous="NO" id="4ao-b5-gKf">
+                                <rect key="frame" x="60" y="335" width="200" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="blendImageAction:" destination="2" eventType="valueChanged" id="Xw5-AO-xji"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ogY-H0-71a"/>
+                    <connections>
+                        <outlet property="alphaSlider" destination="4ao-b5-gKf" id="obZ-Xp-nHk"/>
+                        <outlet property="blendImageButton" destination="EdO-h6-xu6" id="pgB-od-lyv"/>
+                        <outlet property="imageOneButton" destination="S6i-Bi-qZD" id="dlw-EI-av8"/>
+                        <outlet property="imageTwoButton" destination="LLy-Lz-Y0z" id="cUE-BU-OIW"/>
+                        <outlet property="imageView" destination="cJf-aK-Apc" id="ywU-MV-Q4o"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-265" y="123"/>
+        </scene>
+        <!--Image Picker View Controller-->
+        <scene sceneID="L2R-8k-vgF">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lCn-s6-01N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="qtG-jN-Qbv" customClass="ImagePickerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Ke-qf-A12" userLabel="View">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="h2g-Rw-DfZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <navigationItem id="aza-Y6-Ccg">
+                                        <barButtonItem key="rightBarButtonItem" title="done" id="dk6-Ub-aCo">
+                                            <connections>
+                                                <action selector="doneButtonAction:" destination="qtG-jN-Qbv" id="GCr-Or-gLF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="HWR-BY-uSs">
+                                <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="camera" id="nEf-nd-jZA">
+                                        <connections>
+                                            <action selector="loadImageFromCamera:" destination="qtG-jN-Qbv" id="BxW-jT-2au"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="action" id="uQz-MS-aOa">
+                                        <connections>
+                                            <action selector="loadImageFromPhotoLibrary:" destination="qtG-jN-Qbv" id="EMj-Tr-c4t"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="rln-fw-geT">
+                                <rect key="frame" x="0.0" y="44" width="320" height="372"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="albumButton" destination="uQz-MS-aOa" id="NEt-IS-Cw6"/>
+                        <outlet property="cameraButton" destination="nEf-nd-jZA" id="hPD-o7-R4I"/>
+                        <outlet property="doneButton" destination="dk6-Ub-aCo" id="ibg-D2-Tjg"/>
+                        <outlet property="photoImageView" destination="rln-fw-geT" id="yDk-t6-c77"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="224" y="123"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ImagePickerViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ImagePickerViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doneButtonAction:"/>
+                <relationship kind="action" name="loadImageFromCamera:"/>
+                <relationship kind="action" name="loadImageFromPhotoLibrary:"/>
+                <relationship kind="outlet" name="albumButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="cameraButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="doneButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="photoImageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="blendImageAction:"/>
+                <relationship kind="outlet" name="alphaSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="blendImageButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="imageOneButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="imageTwoButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="K2D-gC-jN7"/>
+    </inferredMetricsTieBreakers>
+</document>

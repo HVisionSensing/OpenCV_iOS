@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS/AppDelegate.h
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS/ViewController.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS/AppDelegate.m
+END
+ViewController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS/ViewController.mm
+END
+HelloWorld_iOS-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS/HelloWorld_iOS-Info.plist
+END
+HelloWorld_iOS-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS/HelloWorld_iOS-Prefix.pch
+END
+VideoCameraController.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS/VideoCameraController.h
+END
+VideoCameraController.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS/VideoCameraController.m
+END
+helloworld.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS/helloworld.png
+END
+lena.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/gsoc2012/!svn/ver/83/ios/trunk/HelloWorld_iOS/HelloWorld_iOS/lena.jpg
+END
